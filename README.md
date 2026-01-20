@@ -1,24 +1,46 @@
 # Arquitetura de Sistemas Java - Projeto delivery API
 
-Repositório dos exercícios. [Link para material do curso e referências](https://github.com/adrianoenache/Arquitetura-de-Sistemas-Java).
+Sistema de delivery desenvolvido com **Java** e **Spring Boot**.
 
-## Comandos
+Link para [material do curso e referências](https://github.com/adrianoenache/Arquitetura-de-Sistemas-Java).
 
-Inicie o servidor com
+## 🚀 Tecnologias
 
-```bash
-mvn spring-boot:run
-```
+- Java **21.0.9**
+- Spring Boot **3.5.10**
+- Spring Web
+- Spring Data JPA
+- H2 Database
+- Maven
 
-## URLs
+## ⚡ Recursos Modernos Utilizados
 
-Inicie o servidor antes de acessar os links abaixo.
+- Records (Java **14+**)
+- Text Blocks (Java **15+**)
+- Pattern Matching (Java **17+**)
+- Virtual Threads (Java **21**)
 
-### Banco de dados
+## 🏃‍♂️ Como executar
 
-- [H2 console](http://localhost:8080/h2-console/)
+1. Pré-requisitos: **JDK 21** instalado
+2. Clone o repositório [https://github.com/adrianoenache/delivery-api-adrianoenache](https://github.com/adrianoenache/delivery-api-adrianoenache)
+3. Acesse a pasta e execute na raiz: `mvnw spring-boot:run`
+4. Acesse: [http://localhost:8080/health](http://localhost:8080/health)
 
-### Endpoints
+## 📋 Endpoints
 
-- [/info](http://localhost:8080/info)
-- [/health](http://localhost:8080/health)
+- GET [/info](http://localhost:8080/info) - Status da aplicação (inclui versão Java)
+- GET [/health](http://localhost:8080/health) - Informações da aplicação
+- GET [H2 console](http://localhost:8080/h2-console/) - Console do banco H2
+
+## 🔧 Configuração
+
+- Porta: **8080**
+- Banco: **H2 em memória**
+- Profile: **development**
+
+## 👨‍💻 Desenvolvedor
+
+Adriano Enache - TI2601 03731 Arquitetura de Sistemas
+
+Desenvolvido com **JDK 21** e **Spring Boot 3.5.10**
